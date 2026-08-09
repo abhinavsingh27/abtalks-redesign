@@ -1,5 +1,7 @@
 # ABTalks Redesign — Vibe Code Hackathon (Problem Statement 1)
 
+**Live Demo:** [https://abtalks-redesign-two-red.vercel.app/](https://abtalks-redesign-two-red.vercel.app/)
+
 A mobile-first redesign of the ABTalks 60-day coding challenge platform.
 Built with React, Tailwind CSS, and React Router — no backend, no auth,
 mocked data only, per the challenge's "ship at minimum" scope.
@@ -56,16 +58,9 @@ npm run build
 npm run preview
 ```
 
-## Deploy (Vercel — recommended)
+## Deploy (Vercel)
 
 1. Push this repo to GitHub (public).
 2. Go to vercel.com/new, import the repo.
 3. Framework preset: **Vite**. Build command `npm run build`, output dir `dist`.
-4. Deploy — you'll get a live URL like `https://your-project.vercel.app`.
-
-## Deploy (Netlify — alternative)
-
-1. Push this repo to GitHub (public).
-2. app.netlify.com/start → import repo.
-3. Build command: `npm run build`, publish directory: `dist`.
-4. Deploy.
+4. Deploy — you'll get a live URL like `https://abtalks-redesign-two-red.vercel.app/`.
